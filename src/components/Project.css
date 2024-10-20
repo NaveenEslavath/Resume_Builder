@@ -1,0 +1,101 @@
+@media(max-width:768px){
+    .labelp{
+        font-size:11px;
+        font-weight: 600;
+        color: #000;
+    
+    }
+    .inpp{
+        outline: none;
+        padding:5px;
+        border:1px solid black;
+        border-radius: 4px;
+    margin-top:3px;
+    width:20rem;
+    }
+    .techn{
+        outline:none;
+        border:1px solid #000;
+border-radius: 4px;
+        margin-top: 4px;
+        width:78%;
+    }
+}
+
+@media(min-width:768px){
+    .labelp{
+        font-size:13px;
+        font-weight: 600;
+        color: #000;
+    
+    }
+    .inpp{
+        outline: none;
+        padding:5px;
+        border:1px solid black;
+        border-radius: 4px;
+    margin-top:3px;
+    width:25rem;
+    }
+    .techn{
+        outline:none;
+        margin-top: 4px;
+        border:1px solid #000;
+        border-radius: 4px;
+
+    }
+}
+
+
+
+
+
+
+.inpp::placeholder{
+    font-size:12px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+.techn::placeholder{
+    font-family:'Lobster';
+    font-size:12px;
+    color: #000;
+    font-weight: 500;
+    font-style:italic;
+}
+
+.yearp{
+    outline: none;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 4px;
+margin-top:4px;
+width:6rem;
+}
+
+.cmn-marg{
+    margin-bottom: 3px;
+}
+
+.delp{
+    background-color:transparent;
+  align-self:center;
+    border:none;
+}
+
+
+
+
+.delp-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.pr-under{
+    margin-bottom:6px;
+}

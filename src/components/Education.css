@@ -1,0 +1,104 @@
+@media(max-width:768px){
+    .label1{
+        font-size:12px;
+        font-weight: 600;
+        color: #000;
+    }
+    .del-con{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:flex-start;
+    }
+    .del-box{
+        background-color:transparent;
+        align-self:center;
+        border:none;
+    }
+}
+
+@media(min-width:768px){
+    .label1{
+        font-size:14px;
+        font-weight: 600;
+        color: #000;
+    }
+    .del-con{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:flex-start;
+    }
+    .del-box{
+        background-color:transparent;
+        align-self:center;
+
+        border:none;
+    }
+}
+
+
+.sel{
+    outline: none;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 4px;
+margin-top:4px;
+width:21rem;
+}
+
+.sel::option{
+    font-size:12px;
+    color: #000;
+}
+
+.mm1{
+    margin-bottom:6px;
+}
+
+
+
+
+.inp1{
+    outline: none;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 4px;
+margin-top:4px;
+width:20rem;
+}
+
+.inp1::placeholder{
+    font-size:12px;
+    color: #000;
+    font-weight: 500;
+}
+
+.year{
+    outline: none;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 4px;
+margin-top:4px;
+width:8rem;
+}
+
+.year::placeholder{
+    font-size:12px;
+    color: #000;
+    font-weight: 500;
+}
+
+.ex1{
+    margin-left:30px;
+}
+
+.cmn-con1{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    margin-bottom:6px;
+}
+
+
+

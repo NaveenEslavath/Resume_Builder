@@ -1,0 +1,63 @@
+@media(max-width:768px){
+    .home-head{
+        color: #fff;
+        font-size: 15px;
+        font-family:'Lobster';
+        font-style:italic;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    .get-started{
+        background-color:white;
+        color: #000;
+        border:none;
+        font-size:10px;
+        font-weight: 600;
+        padding:6px;
+        width: 20%;
+        border-radius:15px;
+    }
+}
+
+@media(min-width:768px){
+    .home-head{
+        color: #fff;
+        font-size: 20px;
+        font-family:'Lobster';
+        font-style:italic;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    .get-started{
+        background-color:white;
+        color: #000;
+        border:none;
+        font-size:13px;
+        font-weight: 600;
+        padding:8px;
+        width: 12%;
+        border-radius:15px;
+    }
+}
+
+
+
+
+
+
+.home{
+background-image:url('https://res.cloudinary.com/djzenbn7g/image/upload/v1729358780/cpn1nexxztw6bhay46pp.png');
+background-repeat: no-repeat;
+background-size: cover;
+height:60vh;
+background-color:skyblue;
+background-position:center ;
+box-sizing:border-box;
+padding-top:20px;
+padding-left: 30px;
+position:relative;
+z-index:1;
+}
+
+
+
